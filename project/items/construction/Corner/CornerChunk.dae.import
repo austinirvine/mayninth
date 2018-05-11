@@ -2,15 +2,15 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/CornerChunk.dae-429e0bef672c393aac1648ed930a4ae3.scn"
+path="res://.import/CornerChunk.dae-63e5876e7401dfe9478e4214c2255a5b.scn"
 
 [deps]
 
-source_file="res://assets/construction/Corner/CornerChunk.dae"
+source_file="res://items/construction/Corner/CornerChunk.dae"
 source_md5="84095230298ec88d9ca0d1406669bd46"
 
-dest_files=[ "res://.import/CornerChunk.dae-429e0bef672c393aac1648ed930a4ae3.scn" ]
-dest_md5="4ebdaae2ecf0af011b124d9a42a19b2a"
+dest_files=[ "res://.import/CornerChunk.dae-63e5876e7401dfe9478e4214c2255a5b.scn" ]
+dest_md5="34fdb51b4404ebb30524f431f202f980"
 
 [params]
 

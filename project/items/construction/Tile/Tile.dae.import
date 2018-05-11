@@ -2,15 +2,15 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/WallChunk.dae-d17ec67ca725724b75ed5efd7fe0df0b.scn"
+path="res://.import/Tile.dae-bc80f71211d31ba2aa9996d93ae188d3.scn"
 
 [deps]
 
-source_file="res://assets/construction/Wall/WallChunk.dae"
-source_md5="7b524a342af94f0bf19e49edfdd16c81"
+source_file="res://items/construction/Tile/Tile.dae"
+source_md5="df0954ecfa74b88526a536e71950c0d6"
 
-dest_files=[ "res://.import/WallChunk.dae-d17ec67ca725724b75ed5efd7fe0df0b.scn" ]
-dest_md5="f0e7495f620f650a71f0ebcfbbea6d05"
+dest_files=[ "res://.import/Tile.dae-bc80f71211d31ba2aa9996d93ae188d3.scn" ]
+dest_md5="db75500d2bfd7de71ec0ab5971604539"
 
 [params]
 

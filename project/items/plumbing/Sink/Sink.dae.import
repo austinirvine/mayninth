@@ -2,15 +2,15 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Sink.dae-f21b04c77276ea1795207513ef0fc6d8.scn"
+path="res://.import/Sink.dae-6d51a8d25c776fe2459b007e60746b5b.scn"
 
 [deps]
 
-source_file="res://assets/plumbing/Sink/Sink.dae"
+source_file="res://items/plumbing/Sink/Sink.dae"
 source_md5="cc59e22d7f8df0de0a922b7635af3d1b"
 
-dest_files=[ "res://.import/Sink.dae-f21b04c77276ea1795207513ef0fc6d8.scn" ]
-dest_md5="c0e81d321502df0848177a370a57f35e"
+dest_files=[ "res://.import/Sink.dae-6d51a8d25c776fe2459b007e60746b5b.scn" ]
+dest_md5="b54aa9c76591692d790b02e52210370c"
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Toilet.dae-e507fb97bb8afd1c68ddc9a401604e27.scn"
+path="res://.import/Toilet.dae-e6ccb6bc67390466718d8438ade52cdd.scn"
 
 [deps]
 
-source_file="res://assets/plumbing/Toilet/Toilet.dae"
+source_file="res://items/plumbing/Toilet/Toilet.dae"
 source_md5="6906818814c0d460be46d437be5998e1"
 
-dest_files=[ "res://.import/Toilet.dae-e507fb97bb8afd1c68ddc9a401604e27.scn" ]
-dest_md5="96f4fc668593366f1188e41cc609aaf8"
+dest_files=[ "res://.import/Toilet.dae-e6ccb6bc67390466718d8438ade52cdd.scn" ]
+dest_md5="8baa23a07a70aa59748be59562e0d242"
 
 [params]
 

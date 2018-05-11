@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://assets/plumbing/Toilet/Cube.mesh" type="ArrayMesh" id=1]
-[ext_resource path="res://assets/plumbing/Sink/Cube.mesh" type="ArrayMesh" id=2]
+[ext_resource path="res://items/plumbing/Toilet/Cube.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://items/plumbing/Sink/Cube.mesh" type="ArrayMesh" id=2]
 
 [sub_resource type="ConcavePolygonShape" id=1]
 
