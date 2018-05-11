@@ -1,9 +1,9 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://WorldGenerator.gd" type="Script" id=1]
-[ext_resource path="res://player.gd" type="Script" id=2]
+[ext_resource path="res://menu/hud/hud.tscn" type="PackedScene" id=2]
 
-[node name="Bathroom Gen" type="Node" index="0"]
+[node name="Bathroom Gen" type="Node"]
 
 script = ExtResource( 1 )
 
@@ -22,9 +22,10 @@ fov = 70.0
 size = 1.0
 near = 0.05
 far = 100.0
-script = ExtResource( 2 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Node" type="Node" parent="." index="1"]
+
+[node name="HUD" parent="." index="2" instance=ExtResource( 2 )]
 
 
