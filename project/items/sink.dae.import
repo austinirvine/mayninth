@@ -2,15 +2,15 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Sink.dae-6d51a8d25c776fe2459b007e60746b5b.scn"
+path="res://.import/sink.dae-6e537e809b96f406163b69fc01049b69.scn"
 
 [deps]
 
-source_file="res://items/plumbing/Sink/Sink.dae"
+source_file="res://items/sink.dae"
 source_md5="cc59e22d7f8df0de0a922b7635af3d1b"
 
-dest_files=[ "res://.import/Sink.dae-6d51a8d25c776fe2459b007e60746b5b.scn" ]
-dest_md5="b54aa9c76591692d790b02e52210370c"
+dest_files=[ "res://.import/sink.dae-6e537e809b96f406163b69fc01049b69.scn" ]
+dest_md5="fc7ed7c5e2efedd53abc328849587f38"
 
 [params]
 
@@ -24,7 +24,7 @@ materials/storage=1
 materials/keep_on_reimport=true
 meshes/compress=true
 meshes/ensure_tangents=true
-meshes/storage=1
+meshes/storage=0
 meshes/light_baking=0
 meshes/lightmap_texel_size=0.1
 external_files/store_in_subdir=false

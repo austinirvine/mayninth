@@ -2,15 +2,15 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Toilet.dae-e6ccb6bc67390466718d8438ade52cdd.scn"
+path="res://.import/toilet.dae-c18f9cd9ab45e7ace04a1673e789f5af.scn"
 
 [deps]
 
-source_file="res://items/plumbing/Toilet/Toilet.dae"
+source_file="res://items/toilet.dae"
 source_md5="6906818814c0d460be46d437be5998e1"
 
-dest_files=[ "res://.import/Toilet.dae-e6ccb6bc67390466718d8438ade52cdd.scn" ]
-dest_md5="8baa23a07a70aa59748be59562e0d242"
+dest_files=[ "res://.import/toilet.dae-c18f9cd9ab45e7ace04a1673e789f5af.scn" ]
+dest_md5="86427441cf22a034269c12d684747c84"
 
 [params]
 
@@ -24,7 +24,7 @@ materials/storage=1
 materials/keep_on_reimport=true
 meshes/compress=true
 meshes/ensure_tangents=true
-meshes/storage=1
+meshes/storage=0
 meshes/light_baking=0
 meshes/lightmap_texel_size=0.1
 external_files/store_in_subdir=false
