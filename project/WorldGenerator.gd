@@ -3,10 +3,10 @@ extends Node
 var startingLocation = Vector3(0.0, 0.0, 0.0);
 var worldObjects = [];
 var tileObject = load("res://Tile.tscn");
-var constructLib = load("res://assets/Construction_MeshLibrary.meshlib");
+var constructLib = load("res://items/Construction_MeshLibrary.meshlib");
 
-var toilet = load("res://assets/plumbing/Toilet/Toilet.tscn");
-var sink = load("res://assets/plumbing/Toilet/Toilet.tscn");
+var toilet = load("res://items/plumbing/Toilet/Toilet.tscn");
+var sink = load("res://items/plumbing/Toilet/Toilet.tscn");
 
 var constructContainer = [];
 var currentSelection;

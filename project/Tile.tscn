@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://assets/construction/Tile/Cube_001.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://items/construction/Tile/Cube_001.mesh" type="ArrayMesh" id=1]
 
 [node name="Tile" type="Spatial"]
 
