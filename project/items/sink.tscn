@@ -1,8 +1,9 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://models/Sink.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://items/item.gd" type="Script" id=2]
 
-[node name="Sink" type="MeshInstance"]
+[node name="Sink" type="MeshInstance" index="0"]
 
 layers = 1
 material_override = null
@@ -16,5 +17,6 @@ lod_max_hysteresis = 0.0
 mesh = ExtResource( 1 )
 skeleton = NodePath("..")
 material/0 = null
+script = ExtResource( 2 )
 
 

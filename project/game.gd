@@ -32,6 +32,7 @@ func handle_item_click(item):
 	
 	if item:
 		preview_node = item.instance()
+		preview_node.preview = true
 		add_child(preview_node)
 		preview_node.translation = pos
 		
@@ -76,10 +77,9 @@ func _unhandled_input(event):
 			if (grid[x][y] == null):
 				var node = preview_item.instance()
 				node.translation = preview_node.translation
-				## TODO - Register to grid in node._ready() so editor placement works...
-				grid[x][y] = node
-				add_child(node)
+				node.register(self)
 				assert(grid[x][y] == node)
+				add_child(node)
 				
 	# Item removal
 	if event.is_action_pressed("mouse2"):
