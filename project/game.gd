@@ -56,9 +56,9 @@ func _unhandled_input(event):
 	if(event is InputEventKey):
 		# For testing/debugging only. Actual game defines these on item button nodes
 		if(event.pressed and event.scancode == KEY_1):
-			handle_item_click(preload("res://items/toilet.dae"))
+			handle_item_click(preload("res://items/toilet.tscn"))
 		if(event.pressed and event.scancode == KEY_2):
-			handle_item_click(preload("res://items/sink.dae"))
+			handle_item_click(preload("res://items/sink.tscn"))
 			
 	# Preview rotation...
 	if event.is_action_pressed("rotate_left"):
