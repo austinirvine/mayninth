@@ -37,8 +37,8 @@ func handle_item_click(item):
 		
 func snap_to_grid(pos):
 	var new_pos = Vector3()
-	new_pos[0] = int(CELL_SIZE * round(pos[0] / CELL_SIZE))
-	new_pos[2] = int(CELL_SIZE * round(pos[2] / CELL_SIZE))
+	new_pos[0] = CELL_SIZE * round(pos[0] / CELL_SIZE)
+	new_pos[2] = CELL_SIZE * round(pos[2] / CELL_SIZE)
 	return new_pos
 	
 func pos_to_coords(pos):
