@@ -1,5 +1,7 @@
 extends CanvasLayer
 
+signal item_clicked
+
 func _ready():
 	var buttons = []
 	find_item_buttons(buttons, get_children())
@@ -13,3 +15,4 @@ func find_item_buttons(buttons, children):
 func item_button_pressed(button):
 	print("CHANGE ITEM SELECTION HERE")
 	print(button.item)
+	emit_signal("item_clicked", button.item)
