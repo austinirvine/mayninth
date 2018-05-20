@@ -1,10 +1,12 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://assets/construction/Tile/Cube_001.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://items/construction/Tile/Cube_001.mesh" type="ArrayMesh" id=1]
 
-[node name="Tile" type="Spatial"]
+[sub_resource type="ConvexPolygonShape" id=1]
 
-editor/display_folded = true
+points = PoolVector3Array( -1, 0, 1, -1, 0.161011, 1, -1, 0.161011, -1, -1, 0, -1, -1, 0, -1, -1, 0.161011, -1, 1, 0.161011, -1, 1, 0, -1, 1, 0, -1, 1, 0.161011, -1, 1, 0.161011, 1, 1, 0, 1, 1, 0, 1, 1, 0.161011, 1, -1, 0.161011, 1, -1, 0, 1, -1, 0, -1, 1, 0, -1, 1, 0, 1, -1, 0, 1, 1, 0.161011, -1, -1, 0.161011, -1, -1, 0.161011, 1, 1, 0.161011, 1 )
+
+[node name="Tile" type="Spatial" index="0"]
 
 [node name="MeshInstance" type="MeshInstance" parent="." index="0"]
 
@@ -22,5 +24,21 @@ mesh = ExtResource( 1 )
 skeleton = NodePath("..")
 material/0 = null
 _sections_unfolded = [ "Transform" ]
+
+[node name="StaticBody" type="StaticBody" parent="MeshInstance" index="0"]
+
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+friction = 1.0
+bounce = 0.0
+constant_linear_velocity = Vector3( 0, 0, 0 )
+constant_angular_velocity = Vector3( 0, 0, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="MeshInstance/StaticBody" index="0"]
+
+shape = SubResource( 1 )
+disabled = false
 
 

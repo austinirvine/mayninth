@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://assets/Construction_MeshLibrary.meshlib" type="MeshLibrary" id=1]
-[ext_resource path="res://assets/Plumbing_MeshLibrary.meshlib" type="MeshLibrary" id=2]
+[ext_resource path="res://items/Construction_MeshLibrary.meshlib" type="MeshLibrary" id=1]
+[ext_resource path="res://items/Plumbing_MeshLibrary.meshlib" type="MeshLibrary" id=2]
 
 [node name="Level" type="Node"]
 
